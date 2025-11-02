@@ -10,7 +10,7 @@ function procesarTexto(texto){
     function contarPalabras(texto){
         let contador=1
         for(let i=0; i<texto.length; i++){
-            if(texto[i]!=" ")
+            if(texto[i]==" ")
                 contador++
         }
         return contador
@@ -20,4 +20,4 @@ function procesarTexto(texto){
 }
 let oracion=prompt("Ingrese una oracion")
 console.log("La oracion ingresada es: "+oracion)
-procesarTexto(texto)
+procesarTexto(oracion)

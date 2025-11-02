@@ -7,4 +7,4 @@ function operacion(x,y){
 let a=parseInt(prompt("Ingrese primer numero"))
 let b=parseInt(prompt("Ingrese segundo numero"))
 console.log("Primer numero: ", a," Segundo numero: ", b)
-console(ejecutarOperacion(operacion,a,b))
+console.log("Resultado de la operacion: "+ejecutarOperacion(operacion,a,b))
