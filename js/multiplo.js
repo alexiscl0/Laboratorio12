@@ -17,3 +17,4 @@ if (mult) {
 else {
   console.log(numA + " no es multiplo de " + numB);
 }
+  
